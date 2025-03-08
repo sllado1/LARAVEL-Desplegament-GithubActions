@@ -25,4 +25,4 @@ Les tasques que definim en un workflow són **idempotents**, és a dir, que per 
 Amb aquest enfocament, podem estar segurs que el nostre procés de desplegament serà repetible, fiable i sempre executat de la mateixa manera.
 
 # Desplegament d'una aplicació Laravel amb GitHub Actions
-Per definir un worflow que s'iniciï cada vegada que es produeixi un esdeveniment, s'ha de crear un fitxer yaml a la carpeta ´´´ .github/workflows ´´´ del repositori.
+Per definir un worflow que s'iniciï cada vegada que es produeixi un esdeveniment, s'ha de crear un fitxer yaml a la carpeta ``` .github/workflows ``` del repositori.
