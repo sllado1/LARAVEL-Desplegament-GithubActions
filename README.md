@@ -310,4 +310,4 @@ jobs:
           $(which php84) artisan config:clear
  ``` 
  # Exercicis
- [Exercici 1]()
+ [Exercici 1](exercici1.md)
