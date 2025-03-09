@@ -26,3 +26,4 @@ Amb aquest enfocament, podem estar segurs que el nostre procés de desplegament 
 
 # Desplegament d'una aplicació Laravel amb GitHub Actions
 Per definir un worflow que s'iniciï cada vegada que es produeixi un esdeveniment, s'ha de crear un fitxer yaml a la carpeta ``` .github/workflows ``` del repositori.
+
