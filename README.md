@@ -1,3 +1,8 @@
+# Índex
+
+- [Introducció] (#introduccio-a-github-actions)
+
+
 # Introducció a GitHub Actions
 
 Actualment, tenim moltes opcions per automatitzar el desplegament d’una aplicació. En aquest document, explicaré com fer un desplegament bàsic utilitzant **GitHub Actions**.
