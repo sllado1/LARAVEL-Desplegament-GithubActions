@@ -13,6 +13,7 @@
     - [Secrets a nivell de repositori](#secrets-a-nivell-de-repositori)
   - [Com utilitzar els secrets a GitHub Actions?](#com-utilitzar-els-secrets-a-github-actions)
 - [Exemple complet](#exemple-complet)
+- [Exercicis](#exercicis)
 
 
 # Introducció a GitHub Actions
@@ -308,3 +309,5 @@ jobs:
           sed -i "s/DB_CONNECTION=mysql/DB_CONNECTION=${{ secrets.DB_CONNECTION }}/g" .env
           $(which php84) artisan config:clear
  ``` 
+ # Exercicis
+ [Exercici 1]()
