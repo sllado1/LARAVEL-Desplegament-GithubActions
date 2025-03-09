@@ -1,7 +1,18 @@
 # Índex
 
-- [Introducció](#introduccio-a-github-actions)
-- [Desplegament d'una aplicació Laravel amb GitHub Actions](#desplegament-d-una-aplicació-laravel-amb-github-actions)
+- [Índex](#índex)
+- [Introducció a GitHub Actions](#introducció-a-github-actions)
+  - [Per què hem d’automatitzar el desplegament?](#per-què-hem-dautomatitzar-el-desplegament)
+    - [Què és GitHub Actions?](#què-és-github-actions)
+    - [Avantatges de l’automatització](#avantatges-de-lautomatització)
+- [Desplegament d'una aplicació Laravel amb GitHub Actions](#desplegament-duna-aplicació-laravel-amb-github-actions)
+  - [Passos del workflow](#passos-del-workflow)
+    - [Consideracions](#consideracions)
+- [Secrets de GitHub: Què són i com s'utilitzen?](#secrets-de-github-què-són-i-com-sutilitzen)
+  - [Per què utilitzar secrets?](#per-què-utilitzar-secrets)
+    - [Secrets a nivell de repositori](#secrets-a-nivell-de-repositori)
+  - [Com utilitzar els secrets a GitHub Actions?](#com-utilitzar-els-secrets-a-github-actions)
+- [Exemple complet](#exemple-complet)
 
 
 # Introducció a GitHub Actions
