@@ -120,6 +120,11 @@ Compila el codi de Vue.js per generar els fitxers de producció, normalment dins
       run: rm -rf node_modules
 ```
 Elimina la carpeta node_modules per evitar problemes de dependències i eliminar espai.
+```yaml
+    - name: Esborrar la carpeta storage
+      run: rm -rf storage
+```
+:warning: El workflow esborra la carpeta storage que prové del repositori, perquè no sobreescrigui la del servidor i es perdin dades del servidor. Aquest procediment és útil quan es pugen noves versions, però la primera vegada que es fa el desplegament s'han de crear la carpeta amb les seves subcarpetes.
 
 ```yaml
     - name: Comprimir el projecte  (incloent els ocults)
@@ -277,8 +282,8 @@ jobs:
       run: npm run build
     - name: Fent neteja
       run: rm -rf node_modules
- #   - name: Esborrar la carpeta storage
- #     run: rm -rf storage
+    - name: Esborrar la carpeta storage
+      run: rm -rf storage
     - name: Comprimir el projecte  (incloent els ocults)
       run: tar -czf app.tgz $(ls -A)
     - name: ssh scp ssh pipelines
