@@ -1,6 +1,7 @@
 # Índex
 
-- [Introducció] (#introduccio-a-github-actions)
+- [Introducció](#introduccio-a-github-actions)
+- [Desplegament d'una aplicació Laravel amb GitHub Actions](#desplegament-d-una-aplicació-laravel-amb-github-actions)
 
 
 # Introducció a GitHub Actions
